@@ -8,7 +8,7 @@ pipeline{
         timestamps()
     }
 
-    stage{
+    stages{
         stage('Checkout'){
             steps{
                 checkout scm
